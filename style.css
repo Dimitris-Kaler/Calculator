@@ -1,0 +1,32 @@
+#container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(6,1fr);
+    grid-gap:5px;
+    border:2px solid black;
+    background-color:grey;
+    width:250px;
+    height:300px;
+    }
+    .finalDisplay{
+    grid-column:1/5;
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:space-around;
+    }
+    .ac{
+    grid-column:1/3
+    }
+    .ison{
+    grid-column:3/5
+    }
+    
+    button:hover{
+    background-color:blue;
+    }
+    button:active{
+    background-color:red;
+    }
